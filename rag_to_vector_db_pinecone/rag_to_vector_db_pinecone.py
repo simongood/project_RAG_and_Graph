@@ -10,7 +10,7 @@ import json
 from pinecone import Pinecone, ServerlessSpec
 
 def main():
-    # 載入 env 設定 qdrant 連線
+    # 載入 env 設定
     with open('env.json', 'r', encoding='utf-8') as file:
         config = json.load(file)
 
@@ -19,6 +19,9 @@ def main():
     
     # 2. 將文字分割片段
     chunks = text_2_chunks(text, 300, 60)   # 要調整
+    # 將資料寫入 JSON 檔案
+    with open('data/chunks.json', 'w', encoding='utf-8') as f:
+        json.dump(chunks, f, ensure_ascii=False, indent=4)
 
     # 3. 存入 pinecone 數據庫
     # 初始化 Pinecone gRPC 客戶端

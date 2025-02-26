@@ -1,0 +1,70 @@
+[
+    {
+        "id": "chunk1",
+        "text": "黴菌：特性、分類與應用技術文件\n\n1. 引言\n\n黴菌是真菌界中一類重要的微生物，廣泛分布於自然環境中。由於其獨特的生物學特性和代謝能力，黴菌在生態系統、工業生產、醫藥研發和農業應用等領域扮演著重要角色。本技術文件旨在系統性地介紹黴菌的基本特性、分類、研究方法以及在各領域的應用技術。\n\n2. 黴菌的生物學特性\n\n2.1 形態結構\n\n黴菌是一類多細胞真菌，其基本結構包括："
+    },
+    {
+        "id": "chunk2",
+        "text": "2. 黴菌的生物學特性\n\n2.1 形態結構\n\n黴菌是一類多細胞真菌，其基本結構包括：\n\n- 菌絲體：由多個菌絲細胞連接形成的管狀結構，是黴菌的營養體\n- 菌絲：直徑通常為2-10μm的管狀結構，分為有隔菌絲和無隔菌絲\n- 孢子：黴菌的繁殖單位，包括無性孢子和有性孢子\n- 孢子囊：產生孢子的特化結構，形態多樣，是黴菌分類的重要依據\n\n2.2 生長與代謝特性"
+    },
+    {
+        "id": "chunk3",
+        "text": "2.2 生長與代謝特性\n\n- 生長條件：\n  - 溫度：大多數黴菌在20-35°C生長良好，部分耐熱菌可在45-50°C生長\n  - pH值：最適pH範圍通常為4.5-6.5，偏酸性環境\n  - 水分活度(aw)：一般需要0.70以上，部分耐旱菌可在較低aw環境生存\n  - 氧氣：大多數為好氧生物，少數可在低氧環境生長\n\n- 代謝特點：\n  - 分泌多種胞外酶（如澱粉酶、蛋白酶、纖維素酶等）\n  - 能降解多種複雜有機物\n  - 產生多樣化的次級代謝產物（如抗生素、黴菌毒素等）\n\n3. 黴菌的分類\n\n3.1 傳統分類方法\n\n傳統上依據形態學特徵，特別是無性繁殖結構進行分類："
+    },
+    {
+        "id": "chunk4",
+        "text": "3. 黴菌的分類\n\n3.1 傳統分類方法\n\n傳統上依據形態學特徵，特別是無性繁殖結構進行分類：\n\n1. 接合菌門(Zygomycota)：如毛黴(Mucor)、根黴(Rhizopus)\n2. 子囊菌門(Ascomycota)：如青黴(Penicillium)、曲黴(Aspergillus)\n3. 半知菌門(Deuteromycota)：如黑曲黴(Alternaria)、鏈格孢(Fusarium)\n\n3.2 現代分子分類\n\n基於rDNA ITS區域、18S rRNA基因等分子標記的系統發育分析："
+    },
+    {
+        "id": "chunk5",
+        "text": "3.2 現代分子分類\n\n基於rDNA ITS區域、18S rRNA基因等分子標記的系統發育分析：\n\n1. 接合菌亞門(Mucoromycotina)\n2. 子囊菌門(Ascomycota)\n3. 擔子菌門(Basidiomycota)\n\n4. 黴菌研究方法\n\n4.1 培養與分離技術\n\n- 培養基類型：\n  - 沙氏葡萄糖瓊脂(SDA)\n  - 馬鈴薯葡萄糖瓊脂(PDA)\n  - 麥芽提取物瓊脂(MEA)\n  - 沙氏培養基(Czapek-Dox)\n\n- 分離方法：\n  - 直接接種法\n  - 稀釋平板法\n  - 分級稀釋法\n  - 土壤平板法\n\n4.2 鑑定技術"
+    },
+    {
+        "id": "chunk6",
+        "text": "- 分離方法：\n  - 直接接種法\n  - 稀釋平板法\n  - 分級稀釋法\n  - 土壤平板法\n\n4.2 鑑定技術\n\n- 形態學鑑定：顯微觀察菌落特徵、孢子結構、菌絲排列方式\n- 生理生化鑑定：碳源利用模式、酶活性測定\n- 分子生物學鑑定：PCR擴增特定區域(ITS、β-tubulin等)，測序比對\n\n4.3 研究方法\n\n- 組學技術：基因組學、轉錄組學、蛋白組學、代謝組學\n- 基因工程：基因敲除、過表達、CRISPR-Cas9基因編輯\n- 發酵技術：固態發酵、液態發酵、半固態發酵\n\n5. 黴菌的應用技術\n\n5.1 工業應用"
+    },
+    {
+        "id": "chunk7",
+        "text": "5. 黴菌的應用技術\n\n5.1 工業應用\n\n5.1.1 發酵工業\n- 食品釀造：釀酒、奶酪製作(如Penicillium roqueforti用於藍紋奶酪)\n- 發酵食品：豆豉、醬油等傳統發酵食品\n- 有機酸生產：檸檬酸(Aspergillus niger)、葡萄糖酸等\n\n5.1.2 酶製劑生產\n- 澱粉酶：由Aspergillus oryzae生產，用於澱粉糖化\n- 蛋白酶：用於清潔劑、皮革鞣製\n- 脂肪酶：用於油脂轉化、生物柴油生產"
+    },
+    {
+        "id": "chunk8",
+        "text": "5.1.3 抗生素生產\n- 青黴素：由Penicillium chrysogenum產生\n- 頭孢菌素：由Acremonium chrysogenum產生\n- 他汀類：由Aspergillus terreus產生洛伐他汀\n\n5.2 農業應用\n\n5.2.1 生物防治\n- 拮抗菌：Trichoderma屬真菌對多種植物病原菌有拮抗作用\n- 昆蟲病原菌：如Beauveria bassiana用於害蟲防治\n- 除草劑：某些黴菌產生的次級代謝物可作為生物除草劑\n\n5.2.2 植物生長促進\n- 溶磷菌：提高土壤中磷的有效性\n- 菌根真菌：促進植物對營養元素的吸收\n- 內生真菌：增強植物抗逆性"
+    },
+    {
+        "id": "chunk9",
+        "text": "5.3 環境應用\n\n5.3.1 生物修復\n- 重金屬污染：某些黴菌可富集或轉化重金屬\n- 有機污染物降解：如白腐菌降解多環芳烴、PCBs等\n- 廢水處理：用於降解難降解有機物\n\n5.3.2 廢棄物處理\n- 農業廢棄物轉化：利用纖維素降解能力處理秸稈等農業廢棄物\n- 固體廢物堆肥：加速有機廢物分解\n- 生物能源：產生生物乙醇、生物柴油\n\n6. 黴菌相關風險與控制\n\n6.1 黴菌毒素"
+    },
+    {
+        "id": "chunk10",
+        "text": "6. 黴菌相關風險與控制\n\n6.1 黴菌毒素\n\n- 主要類型：\n  - 黃曲霉毒素(Aflatoxins)：由Aspergillus flavus產生\n  - 赭曲霉毒素(Ochratoxins)：由Aspergillus ochraceus和Penicillium verrucosum產生\n  - 鐮刀菌毒素(Fumonisins)：由Fusarium屬產生\n  - 單端孢霉烯族毒素(Trichothecenes)：由Fusarium屬產生\n  - 玉米赤霉烯酮(Zearalenone)：由Fusarium graminearum產生"
+    },
+    {
+        "id": "chunk11",
+        "text": "- 檢測方法：\n  - 色譜分析：高效液相色譜(HPLC)、氣相色譜-質譜聯用(GC-MS)\n  - 免疫分析：酶聯免疫吸附測定(ELISA)\n  - 生物感測器：基於抗體或適配體的生物傳感技術\n\n6.2 防控策略\n\n- 預防措施：\n  - 適當的儲存條件：控制溫度、濕度\n  - 防黴包裝：改良大氣包裝(MAP)、活性包裝\n  - 農業良好實踐：輪作、抗病育種\n\n- 去除方法：\n  - 物理方法：加熱處理、輻照、吸附\n  - 化學方法：氧化劑、還原劑、鹼處理\n  - 生物方法：微生物或酶降解黴菌毒素\n\n7. 研究與發展趨勢\n\n7.1 基礎研究方向"
+    },
+    {
+        "id": "chunk12",
+        "text": "7. 研究與發展趨勢\n\n7.1 基礎研究方向\n\n- 黴菌生物學：基因組學、功能基因組學研究\n- 次級代謝產物生物合成：代謝途徑解析與調控\n- 生物技術：基因編輯、合成生物學應用\n\n7.2 應用研究方向\n\n- 新型酶製劑：極端環境酶、高效催化酶\n- 生物活性化合物篩選：新型抗生素、抗腫瘤物質\n- 黴菌工程化：高產菌株開發、發酵過程優化\n\n7.3 未來展望\n\n- 利用合成生物學重構黴菌代謝網絡\n- 開發智能發酵系統，實現精準調控\n- 建立黴菌資源庫，推動資源共享與利用\n\n8. 總結"
+    },
+    {
+        "id": "chunk13",
+        "text": "8. 總結\n\n黴菌作為一類重要的微生物資源，在工業、農業、醫藥、環境等領域具有廣泛應用前景。深入了解黴菌的生物學特性、分類系統、研究方法以及應用技術，對於開發新型生物資源、解決實際生產問題、促進產業升級具有重要意義。同時，合理控制黴菌相關風險，實現黴菌資源的可持續利用，是未來研究與應用的重要方向。\n\n9. 參考文獻"
+    },
+    {
+        "id": "chunk14",
+        "text": "[1] Bennett, J. W., & Klich, M. (2003). Mycotoxins. Clinical Microbiology Reviews, 16(3), 497-516.\n[2] Dighton, J. (2016). Fungi in ecosystem processes (Vol. 31). CRC Press."
+    },
+    {
+        "id": "chunk15",
+        "text": "[3] Keller, N. P., Turner, G., & Bennett, J. W. (2005). Fungal secondary metabolism—from biochemistry to genomics. Nature Reviews Microbiology, 3(12), 937-947."
+    },
+    {
+        "id": "chunk16",
+        "text": "[4] Meyer, V., Andersen, M. R., Brakhage, A. A., et al. (2016). Current challenges of research on filamentous fungi in relation to human welfare and a sustainable bio-economy: a white paper. Fungal Biology and Biotechnology, 3(1), 1-17."
+    },
+    {
+        "id": "chunk17",
+        "text": "[5] Pitt, J. I., & Hocking, A. D. (2009). Fungi and food spoilage (Vol. 519). New York: Springer."
+    }
+]
