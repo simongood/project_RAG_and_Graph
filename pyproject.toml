@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "project_RAG_and_Graph"
+version = "0.1.0"
+description = ""
+authors = ["simongood <simongood2986@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
