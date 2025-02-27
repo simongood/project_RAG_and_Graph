@@ -1,0 +1,18 @@
+{
+    "people": [
+        {"name": "Alice", "age": 30},
+        {"name": "Bob", "age": 32},
+        {"name": "Charlie", "age": 25},
+        {"name": "David", "age": 29},
+        {"name": "Emma", "age": 31}
+    ],
+    
+    "relationships": [
+        {"source": "Alice", "target": "Bob", "type": "KNOWS", "properties": {"since": 2020}},
+        {"source": "Alice", "target": "Charlie", "type": "KNOWS", "properties": {"since": 2018}},
+        {"source": "Bob", "target": "David", "type": "KNOWS", "properties": {"since": 2019}},
+        {"source": "Charlie", "target": "Emma", "type": "KNOWS", "properties": {"since": 2021}},
+        {"source": "David", "target": "Emma", "type": "KNOWS", "properties": {"since": 2017}},
+        {"source": "Emma", "target": "Alice", "type": "KNOWS", "properties": {"since": 2022}}
+    ]
+}
