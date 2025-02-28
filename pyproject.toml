@@ -14,7 +14,6 @@ langchain-openai = "^0.3.7"
 networks = "^0.3.7"
 networkx = "^3.4.2"
 pandas = "^2.2.3"
-neo4j = "^5.28.1"
 
 
 [build-system]
