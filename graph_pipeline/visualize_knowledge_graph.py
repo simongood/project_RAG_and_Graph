@@ -7,7 +7,7 @@ def visualize_knowledge_graph(G, output_file=None):
     
     Args:
         G (nx.DiGraph): 要可視化的知識圖譜
-        output_file (str, optional): 輸出圖片的文件路徑，如果為None則僅顯示不保存
+        output_file (str): 輸出圖片的文件路徑
     
     Returns:
         None
@@ -40,7 +40,7 @@ def visualize_knowledge_graph(G, output_file=None):
     nx.draw_networkx_labels(G, pos, font_size=12)
 
     # 為邊添加標籤（關係成立年份）
-    edge_labels = {(u, v): f"認識自: {d['since']}" for u, v, d in G.edges(data=True)}
+    edge_labels = {(u, v): f"{d['type']} ({d['since']})" for u, v, d in G.edges(data=True)}
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=10)
 
     # 添加標題
