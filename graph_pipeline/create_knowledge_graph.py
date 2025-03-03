@@ -16,24 +16,29 @@ def create_knowledge_graph(data, save_file):
     """
     # 建立知識圖譜
     G = nx.DiGraph()
-
-    # 添加節點（人物）
-    for person in data["people"]:
-        G.add_node(person["name"], age=person["age"])
-
-    # 添加邊（關係）
-    for rel in data["relationships"]:
-        G.add_edge(
-            rel["source"],
-            rel["target"],
-            type=rel["type"],
-            since=rel["properties"]["since"]
-        )
     
-
-    with open(save_file, 'wb') as f:
-        pickle.dump(G, f)
-    print(f"知識圖譜已儲存到: {save_file}")
+    # 添加節點和關係
+    for rel in data["relationships"]:
+        source = rel["source"]
+        target = rel["target"]
+        relation = rel["relation"]
+        description = rel["description"]
+        
+        # 添加節點（如果不存在）
+        if not G.has_node(source):
+            G.add_node(source)
+        if not G.has_node(target):
+            G.add_node(target)
+        
+        # 添加邊和邊的屬性
+        G.add_edge(source, target, relation=relation, description=description)
+    
+    # 如果提供了保存路徑，則保存圖譜
+    if save_file:
+        with open(save_file, 'wb') as f:
+            pickle.dump(G, f)
+            
+    return G
 
 
 if __name__ == '__main__':

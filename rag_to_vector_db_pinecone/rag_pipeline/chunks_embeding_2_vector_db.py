@@ -55,7 +55,7 @@ def embeddings_2_vector_db(index, embeddings, id, dimensions, model):
     index.upsert(
         vectors=[{
             "id": id,
-            "values": embeddings,  # Pinecone 期望直接的向量列表，而不是嵌套列表
+            "values": embeddings,  
             "metadata": metadata
         }]
     )

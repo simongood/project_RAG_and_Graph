@@ -24,35 +24,36 @@ def visualize_knowledge_graph(G, output_file=None):
     except:
         print("無法設置中文字體，將使用默認字體")
     
-    plt.figure(figsize=(10, 8))
-
-    # 使用spring_layout來確定節點位置
-    pos = nx.spring_layout(G, seed=42)
-
-    # 繪製節點
-    nx.draw_networkx_nodes(G, pos, node_size=700, node_color='lightblue')
-
-    # 繪製邊
-    nx.draw_networkx_edges(G, pos, width=1.5, alpha=0.7, edge_color='gray', 
-                          connectionstyle='arc3,rad=0.1', arrowsize=15)
-
-    # 為節點添加標籤 - 使用適合中文的字體
-    nx.draw_networkx_labels(G, pos, font_size=12)
-
-    # 為邊添加標籤（關係成立年份）
-    edge_labels = {(u, v): f"{d['type']} ({d['since']})" for u, v, d in G.edges(data=True)}
-    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=10)
-
-    # 添加標題
-    plt.title("人物關係知識圖譜", fontsize=16)
-    plt.axis('off')  # 隱藏座標軸
-    plt.tight_layout()
-    # 儲存圖片或顯示
-    plt.savefig(output_file, dpi=300, bbox_inches='tight')
+    # 創建圖形
+    plt.figure(figsize=(16, 12))
     
+    # 使用spring佈局
+    pos = nx.spring_layout(G, k=0.3, seed=42)
+    
+    # 繪製節點
+    nx.draw_networkx_nodes(G, pos, node_color='skyblue', node_size=800, alpha=0.8)
+    
+    # 繪製節點標籤
+    nx.draw_networkx_labels(G, pos, font_size=6, font_family='sans-serif')
+    
+    # 繪製邊
+    nx.draw_networkx_edges(G, pos, width=1.5, alpha=0.7, arrowsize=20)
+    
+    # 繪製邊標籤
+    edge_labels = {(u, v): d['relation'] for u, v, d in G.edges(data=True)}
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=6)
+    
+    # 設置標題和關閉坐標軸
+    plt.title("鞋類發霉問題知識圖譜", fontsize=16)
+    plt.axis('off')
+    
+    # 保存圖片
+    if output_file:
+        plt.savefig(output_file, dpi=300, bbox_inches='tight')
+        print(f"圖譜已保存至: {output_file}")
+    
+    plt.tight_layout()
     plt.show()
-
-
 
 if __name__ == "__main__":
     import pickle
