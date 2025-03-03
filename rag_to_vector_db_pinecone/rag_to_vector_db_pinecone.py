@@ -7,7 +7,7 @@ from rag_pipeline.chunks_embeding_2_vector_db import (
 
 
 import json
-from pinecone import Pinecone, ServerlessSpec
+from pinecone import Pinecone
 
 def main():
     # 載入 env 設定
@@ -15,7 +15,7 @@ def main():
         config = json.load(file)
 
     # 1. 將文件轉為文字
-    text = file_2_text('data/mock_file_data.txt')
+    text = file_2_text('file/shoe-mold-technical-document.txt')
     
     # 2. 將文字分割片段
     chunks = text_2_chunks(text, 300, 60)   # 要調整
@@ -26,10 +26,11 @@ def main():
     # 3. 存入 pinecone 數據庫
     # 初始化 Pinecone gRPC 客戶端
     pc = Pinecone(api_key=config['pinecone_api_key'])
-    index = pc.Index("rag-vector-db-test")
+    index = pc.Index("rag-vector-db")
 
     for chunk in chunks:
         embeddings = jina_embedding(chunk['text'], config)
+        print(f'儲存 {chunk}')
         embeddings_2_vector_db(index, embeddings, chunk['id'], 1024, "jina-embeddings-v3")
     
     
