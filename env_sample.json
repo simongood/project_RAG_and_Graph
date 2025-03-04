@@ -1,0 +1,8 @@
+{
+    "jina_url" : "",
+    "jina_headers_Authorization" : "",
+    
+    "pinecone_api_key" : "",
+
+    "chat_gpt_key" : ""
+}
